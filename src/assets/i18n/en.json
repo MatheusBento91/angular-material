@@ -1,0 +1,6 @@
+{
+    "login": {
+        "title": "Welcome",
+        "subtitle": "This is a great system using Angular material and ngx-translate, choose your language."
+    }
+}
