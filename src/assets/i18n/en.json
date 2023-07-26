@@ -2,5 +2,17 @@
     "login": {
         "title": "Welcome",
         "subtitle": "This is a great system using Angular material and ngx-translate, choose your language."
+    },
+    "toolbar": {
+        "title": "READY TO GROW"
+    },
+    "sidenav": {
+        "home": "home"
+    },
+    "welcome": {
+        "titleTheme": "Dark and Ligth | Signals",
+        "subtitleTheme": "This system is created with a custom theme with dark and light mode. And I used Signals to manage the state of the theme mode.",
+        "titleLang": "English and Portuguese | Rxjs",
+        "subtitleLang": "This system is created with two languages and I used Rxjs to manage the state of language."
     }
 }

@@ -1,0 +1,104 @@
+$light-blue-primary: (
+  50: #eaeaff,
+  100: #cacbff,
+  200: #a4a9ff,
+  300: #7a86ff,
+  400: #5869ff,
+  500: #324aff,
+  600: #2e40f3,
+  700: #2134e6,
+  800: #1326db,
+  900: #0000cb,
+  contrast: (
+    50: rgba(black, 0.87),
+    100: rgba(black, 0.87),
+    200: rgba(black, 0.87),
+    300: rgba(black, 0.87),
+    400: rgba(black, 0.87),
+    500: white,
+    600: white,
+    700: white,
+    800: white,
+    900: white,
+  ),
+);
+
+$light-blue-seconday: (
+  50: #f4e6fd,
+  100: #e3c0fb,
+  200: #d196fa,
+  300: #bd6af9,
+  400: #ad46f7,
+  500: #9d1df3,
+  600: #8a1fec,
+  700: #6e1fe5,
+  800: #511edf,
+  900: #001cd9,
+  contrast: (
+    50: rgba(black, 0.87),
+    100: rgba(black, 0.87),
+    200: rgba(black, 0.87),
+    300: rgba(black, 0.87),
+    400: rgba(black, 0.87),
+    500: white,
+    600: white,
+    700: white,
+    800: white,
+    900: white,
+  ),
+);
+
+//dark theme
+
+$dark-blue-primary: (
+  50: #f4e4f4,
+  100: #e4bce5,
+  200: #d290d5,
+  300: #c062c4,
+  400: #b23eb7,
+  500: #a313ab,
+  600: #9510a5,
+  700: #830a9e,
+  800: #720696,
+  900: #53008a,
+  contrast: (
+    50: rgba(black, 0.87),
+    100: rgba(black, 0.87),
+    200: rgba(black, 0.87),
+    300: rgba(black, 0.87),
+    400: rgba(black, 0.87),
+    500: white,
+    600: white,
+    700: white,
+    800: white,
+    900: white,
+  ),
+);
+
+$dark-blue-seconday: (
+  50: #e8eaf8,
+  100: #c6cbed,
+  200: #a0a9e2,
+  300: #7987d6,
+  400: #5b6ccd,
+  500: #3c51c3,
+  600: #3749b9,
+  700: #2d3fad,
+  800: #2434a1,
+  900: #13218d,
+  contrast: (
+    50: rgba(black, 0.87),
+    100: rgba(black, 0.87),
+    200: rgba(black, 0.87),
+    300: rgba(black, 0.87),
+    400: rgba(black, 0.87),
+    500: white,
+    600: white,
+    700: white,
+    800: white,
+    900: white,
+  ),
+);
+
+
+

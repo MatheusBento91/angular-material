@@ -2,5 +2,17 @@
     "login": {
         "title": "Bem vindo",
         "subtitle": "Esse é um grande sistema usando Angular material and ngx-translate, escolha a sua lígnua."
+    },
+    "toolbar": {
+        "title": "PRONTO PARA CRESCER"
+    },
+    "sidenav": {
+        "home": "Inicio"
+    },
+    "welcome": {
+        "titleTheme": "Escuro e Claro | Signals",
+        "subtitleTheme": "Este sistema é criado com um tema personalizado com modo claro e escuro. E usei Signals para gerenciar o estado do modo de tema.",
+        "titleLang": "Inglês e Português | Rxjs",
+        "subtitleLang": "Este sistema é criado com dois idiomas e usei o Rxjs para gerenciar o estado do idioma."
     }
 }
