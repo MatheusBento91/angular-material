@@ -1,0 +1,46 @@
+<main class="main">
+    <div>
+        <mat-card>
+            <div class="content">
+                <h2>{{ 'welcome.titleTheme' | translate }}</h2>
+                <p>{{ 'welcome.subtitleTheme' | translate }}</p>
+                <button class="content__button" mat-fab color="primary"
+                    (click)="setTheme(currentTheme() === 'light'? 'dark' : 'light')"><mat-icon>
+                        {{currentTheme() === 'light'? 'brightness_2' : 'wb_sunny'}} </mat-icon>
+                </button>
+            </div>
+        </mat-card>
+    </div>
+    <div>
+        <mat-card>
+            <div class="content">
+                <h2>{{ 'welcome.titleLang' | translate }}</h2>
+                <p>{{ 'welcome.subtitleLang' | translate }}</p>
+                <img [src]="srcImg" class="content__img"
+                    (click)="setLanguage(currentLanguage === 'en'? 'pt-BR' : 'en')">
+            </div>
+        </mat-card>
+    </div>
+    <div>
+        <mat-card>
+            <div class="content">
+                <h2>{{ 'welcome.titleTheme' | translate }}</h2>
+                <p>{{ 'welcome.subtitleTheme' | translate }}</p>
+                <button class="content__button" mat-fab color="primary"
+                    (click)="setTheme(currentTheme() === 'light'? 'dark' : 'light')"><mat-icon>
+                        {{currentTheme() === 'light'? 'brightness_2' : 'wb_sunny'}} </mat-icon>
+                </button>
+            </div>
+        </mat-card>
+    </div>
+    <div>
+        <mat-card>
+            <div class="content">
+                <h2>{{ 'welcome.titleLang' | translate }}</h2>
+                <p>{{ 'welcome.subtitleLang' | translate }}</p>
+                <img [src]="srcImg" class="content__img"
+                    (click)="setLanguage(currentLanguage === 'en'? 'pt-BR' : 'en')">
+            </div>
+        </mat-card>
+    </div>
+</main>
