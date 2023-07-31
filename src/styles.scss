@@ -12,7 +12,6 @@ $dark-theme: mat.define-dark-theme(
       primary: mat.define-palette($dark-blue-primary),
       accent: mat.define-palette($dark-blue-seconday),
     ),
-    // Only include `typography` and `density` in the default dark theme.
     typography: mat.define-typography-config(),
     density: 0,
   )
@@ -24,7 +23,6 @@ $light-theme: mat.define-light-theme(
       primary: mat.define-palette($light-blue-primary),
       accent: mat.define-palette($light-blue-seconday),
     ),
-    // Only include `typography` and `density` in the default dark theme.
     typography: mat.define-typography-config(),
     density: 0,
   )
