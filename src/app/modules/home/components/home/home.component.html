@@ -2,14 +2,14 @@
     <mat-toolbar color="primary">
         <div class="container__toolbar">
             <div class="container__toolbar__start">
-                <button mat-icon-button (click)="snav.toggle()"><mat-icon>menu</mat-icon></button>
+                <button id="menu-button" mat-icon-button (click)="snav.toggle()"><mat-icon>menu</mat-icon></button>
                 <h1>{{ 'toolbar.title' | translate }}</h1>
             </div>
             <div class="container__toolbar__end">
-                <button mat-icon-button (click)="setLanguage(currentLanguage === 'en'? 'pt-BR' : 'en')">
+                <button id="language-button" mat-icon-button (click)="setLanguage(currentLanguage === 'en'? 'pt-BR' : 'en')">
                     <img class="container__toolbar__end__img" [src]="srcImg" >
                 </button>
-                <button mat-icon-button (click)="setTheme(currentTheme() === 'light'? 'dark' : 'light')"><mat-icon>
+                <button id="theme-button" mat-icon-button (click)="setTheme(currentTheme() === 'light'? 'dark' : 'light')"><mat-icon>
                         {{currentTheme() === 'light'? 'brightness_2' : 'wb_sunny'}} </mat-icon>
                 </button>
             </div>
